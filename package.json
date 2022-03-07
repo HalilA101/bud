@@ -1,0 +1,15 @@
+{
+  "name": "buddy-bot",
+  "version": "1.0.0",
+  "description": "A simple bot for managing team pairs",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Halil Karagöz",
+  "license": "ISC"
+}
