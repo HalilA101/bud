@@ -1,6 +1,7 @@
 {
   "name": "buddy-bot",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple bot for managing team pairs",
   "main": "src/app.js",
   "scripts": {
@@ -11,5 +12,8 @@
     "bot"
   ],
   "author": "Halil Karagöz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
 }
