@@ -33,7 +33,7 @@ function createPairs(people) {
         people.splice(pair2, 1);
     }
 
-    axios.post("https://hooks.slack.com/services/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", { "text": formatPairs(pairs) })
+    axios.post("", { "text": formatPairs(pairs) })
         .then((res) => { console.log(res) })
         .catch((err) => { console.log(err) });
 
